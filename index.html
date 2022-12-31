@@ -23,157 +23,189 @@
 
 </head>
 
-    <body>
-        <section>
-            <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#">My Portfolio</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                        <a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Welcome Section: Jumbotrone Header Full Width -->
-            <header class="jumbotron jumbotron-fluid bg-secondary">
-                <div class="container">
-                    <div class="col-lg-11 mx-auto text-white">
-                        <h1 class="display-4">Welcome to my Portfolio</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <hr class="my-4">
-                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </div>
-            </div>
-            </header>
-            <!-- Work Section-->
-
-            <!-- My Work -->
-            <section class="container">
-                <div class="row d-flex justify-content-around mt-8">
-                    <h1 class="my-4">My Work</h1>
-                </div>
-
-                <div class="row justify-content-between text-center mt-8">
-                    <div class="col-lg-5 mx-auto mb-4">
-                        <div class="card">
-                            <img src="../images/horiseon.png" "card-img-top"/>
-                            <div class="card-body">
-                                <h4>HoriSEOn</h4>
-                                <p class="card-text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="" class="btn btn-primary">Find out more!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mx-auto mb-4">
-                        <div class="card">
-                            <img src="../images/horiseon.png" "card-img-top"/>
-                            <div class="card-body">
-                                <h4>Placeholder 1</h4>
-                                <p class="card-text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="" class="btn btn-primary">Find out more!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mx-auto mb-4">
-                        <div class="card">
-                            <img src="../images/horiseon.png" "card-img-top"/>
-                            <div class="card-body">
-                                <h4>Placeholder 2</h4>
-                                <p class="card-text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="" class="btn btn-primary">Find out more!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mx-auto mb-4">
-                        <div class="card">
-                            <img src="../images/horiseon.png" "card-img-top"/>
-                            <div class="card-body">
-                                <h4>Placeholder 3</h4>
-                                <p class="card-text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="" class="btn btn-primary">Find out more!</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
+<body>
+    <section>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#work">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
             
-            </section>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cv.pdf">Resume</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Welcome Section: Jumbotrone Header Full Width -->
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="col-lg-7 mx-auto jumboCopy" >
+                    <h1 class="display-4">Beata Zacharska</h1>
+                    <p class="lead">Marketer | Front-end Developer | Linguist</p>
+                </div>
+            </div>
+        </header>
+        <!-- Work Section-->
 
-            <section>
-                <div class="container bg-secondary">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 order-lg-2">
-                            <img class="img-fluid rounded-circle" src="../images/horiseon.png"/>
+        <!-- Skills -->
+        <div class="container" id="skills">
+            <div class="row d-flex justify-content-around mt-8">
+            <h1 class="my-4">Skills</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="../images/html.svg" width="110" height="110" id="skill-icon">
+                    <h3 id="skill">HTML</h3>
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <p><a class="btn btn-secondary" href="https://beazach.github.io/horiseon-code-refactor/" role="button">See more</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="../images/css.svg" width="110" height="110" id="skill-icon">
+                        <rect width="100%" height="100%"></rect>
+                    <h3 id="skill">CSS</h3>
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <p><a class="btn btn-secondary" href="https://beazach.github.io/portfolio-2022/" role="button">See more</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="../images/js-flat.svg" width="110" height="110" id="skill-icon">
+                        <rect width="75%" height="75%" fill="777"></rect>
+                    </svg>
+                    <h3 id="skill">JAVASCRIPT</h3>
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Coming up</a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Projects -->
+        <section class="container" id="work">
+            <div class="row d-flex justify-content-around mt-8">
+                <h1 class="my-4">Projects</h1>
+            </div>
+
+            <div class="row justify-content-between text-center mt-8">
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img src="../images/horiseon.png" "card-img-top" id="work-image"/>
+                        <div class="card-body">
+                            <h4>HoriSEOn</h4>
+                            <p class="card-text">The original Horiseon site was structured around semantically meaningless containers, had limited accessibility and showed multiple CSS redundancies. The refactor project aimed to improve accessibility of the page and optimize it for search engines.</p>
                         </div>
-                    
-                        <div class="col-lg-7 order-lg-1 text-white">
-                            <div class="p-5">
-                                <h2 class="display-4">About me</h2>
-                                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                                <a href="" class="btn btn-outline-light">
-                                    <i class="fa-sharp fa-solid fa-chevron-down"></i>
-                                    Download my Resume
-                                </a>
-                            </div>
+                        <div class="card-footer">
+                            <a href="https://beazach.github.io/horiseon-code-refactor/" class="btn btn-primary" id="work-button">Find out more!</a>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <footer class="footer bg-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 h-100 text-center mx-auto">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item mr-3">
-                                    <a href="#">
-                                        <i class="fab fa-linkedin fa-3x fa-fw"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item mr-3">
-                                    <a href="#">
-                                        <i class="fab fa-twitter-square fa-3x fa-fw"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item mr-3">
-                                    <a href="#">
-                                        <i class="fab fa-github fa-3x fa-fw"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            <p class="text-muted small mb-4 mb-lg-0">&copy; Bea's website 2023. Coded in London.</p>
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img src="../images/02-portfolio-3.jpg" "card-img-top" id="work-image"/>
+                        <div class="card-body">
+                            <h4>Placeholder 1</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae maxime tenetur, soluta dolor beatae quod obcaecati officiis, ipsam veniam consectetur eligendi quia reprehenderit sit porro! Consequatur accusamus mollitia provident odit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary" id="work-button">Find out more!</a>
                         </div>
                     </div>
                 </div>
-            </footer>
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img src="../images/02-portfolio-3.jpg" "card-img-top" id="work-image"/>
+                        <div class="card-body">
+                            <h4>Placeholder 2</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus suscipit placeat cum nam, provident porro dignissimos numquam, consectetur, accusantium fugit omnis expedita illum quo cumque et ipsum sint facere!</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary" id="work-button">Find out more!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img src="../images/02-portfolio-3.jpg" "card-img-top" id="work-image"/>
+                        <div class="card-body">
+                            <h4>Placeholder 3</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum debitis doloremque dolorum illum at mollitia ratione deserunt ad quisquam, nisi suscipit minima sequi quo obcaecati quaerat praesentium aliquid. Repellendus, nesciunt!</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary" id="work-button">Find out more!</a>
+                        </div>
+                    </div>
+                </div>
 
+
+            </div>
+        
         </section>
-    </body>
+
+        <!-- About me -->
+        <section>
+            <div class="container" id="about">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 order-lg-2">
+                        <img class="img-fluid" src="../images/beata2.png"/>
+                    </div>
+                
+                    <div class="col-lg-7 order-lg-1 text-white">
+                        <div class="p-5">
+                            <h2 class="display-4">About me</h2>
+                            <p>An agile marketer and program manager, with 10+ years of experience in B2B and B2C marketing. Since 2021 focusing on the tech sector, including an SaaS start-up and B2B Marketing at Google.</p>
+                            <p>In 2023 embarking on a new challenge as a front-end developer!</p>
+                            <a href="../cv.pdf" class="btn btn-outline-light">
+                                <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                                Download my Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <footer class="footer bg-light" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center mx-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item mr-3">
+                                <a href="https://www.linkedin.com/in/beata-z-50a23a47/">
+                                    <i class="fab fa-linkedin fa-3x fa-fw" id="footer-icon"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a href="mailto:beata.zacharska@gmail.com">
+                                    <i class="fa-regular fa-3x fa-envelope" id="footer-icon"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a href="https://github.com/beazach">
+                                    <i class="fab fa-github fa-3x fa-fw" id="footer-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0" id="copyright">&copy; Bea's website 2023. Coded in London.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </section>        
+</body>
 </html>
