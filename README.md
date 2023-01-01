@@ -1,8 +1,16 @@
 # Beata-Bootstrap-Portfolio
-Deployed link: 
+Deployed link: https://beazach.github.io/Beata-Bootstrap-Portfolio/
 
 ## Description 
-Professional portfolio built in Bootstrap showcasing the work I've completed during the developers' bootcamp, with each section displaying different projects, including links to deployed applications and GitHub repositories.
+This is a professional portfolio built in Bootstrap showcasing the work I've completed during the developers' bootcamp, with each section displaying different projects, including links to deployed applications and GitHub repositories.
+
+The application includes:
+- Skills
+- Projects
+- About 
+- Contact
+
+Each section includes relevant links. 
 
 ## Usage
 The look and feel of the page has been customised based on the previous Portfolio mock-up and developer's own preference.
@@ -29,4 +37,4 @@ Please use contact details to get in touch about future projects and collaborati
 MIT
 
 ## Resources 
-- https://fantastic-pudding.vercel.app/03-ux-bootstrap-module/ (last accessed 1 January 2023)
+https://fantastic-pudding.vercel.app/03-ux-bootstrap-module/ (last accessed 1 January 2023)
