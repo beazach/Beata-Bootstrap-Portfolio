@@ -54,6 +54,11 @@
     margin-top: 2em;
   }
 
+  #skills-row {
+    display: flex;
+    align-items: flex-end;
+  }
+
   /* Projects section ============= */
   #work-image {
   max-width: fit-content;
