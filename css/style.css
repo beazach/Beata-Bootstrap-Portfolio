@@ -1,4 +1,4 @@
-/* Added :root to simplify color selection and future color changes */
+/* Brand color palette============= */
 :root {
     --primary: rgba(68, 88, 119, 0.8);
     --secondary: rgba(231, 139, 188, 0.9);
@@ -7,14 +7,10 @@
     --light: rgba(238, 238, 247, 1);
   }  
 
-/* Navigation bar styles ============= */
+/* Navigation bar ============= */
 #mainNav {
   background-color: var(--primary);
 } 
-
-#mainNav .navbar-brand {
-  color: var(--light);
-}
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
   color: var(--secondary);
@@ -45,9 +41,9 @@
   }
 
   /* Jumbotron copy */
-.jumboCopy {
-  background-color: var(--secondary);
-  }
+  .jumboCopy {
+    background-color: var(--secondary);
+    }
 
   /* Skills section ============= */
   #skill {
@@ -60,7 +56,7 @@
 
   /* Projects section ============= */
   #work-image {
-    height: 16em;
+  max-width: fit-content;
   }
 
   #work-button {
