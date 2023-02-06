@@ -1,5 +1,5 @@
 # Beata-Bootstrap-Portfolio
-Deployed link: https://beazach.github.io/Beata-Bootstrap-Portfolio/
+Deployed link: https://beazach.github.io/beata-bootstrap-portfolio/
 
 ## Description 
 This is a professional portfolio built in Bootstrap showcasing the work I've completed during the developers' bootcamp, with each section displaying different projects, including links to deployed applications and GitHub repositories.
